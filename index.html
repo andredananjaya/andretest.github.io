@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio Title</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
     </header>
 
     <section id="hero">
         <h1>Welcome to My Portfolio</h1>
-        <p>I'm [Your Name], a [Your Profession].</p>
-        <a href="#projects">View My Work</a>
+        <p>I'm Sri Bima, a IT Support Engineer.</p>
+        <a href="#projects" class="btn">View My Work</a>
     </section>
 
     <section id="about">
@@ -31,21 +37,49 @@
 
     <section id="projects">
         <h2>My Projects</h2>
-        <ul>
-            <li><a href="[Project Link]">Project 1</a> - [Description]</li>
-            <li><a href="[Project Link]">Project 2</a> - [Description]</li>
+        <div class="project-grid">
+            <div class="project">
+                <a href="[Project Link]">
+                    <img src="[Image URL]" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>[Description]</p>
+                </a>
+            </div>
+            <div class="project">
+                <a href="[Project Link]">
+                    <img src="[Image URL]" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>[Description]</p>
+                </a>
+            </div>
+            <div class="project">
+                <a href="[Project Link]">
+                    <img src="[Image URL]" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>[Description]</p>
+                </a>
+            </div>
+            <div class="project">
+                <a href="[Project Link]">
+                    <img src="[Image URL]" alt="Project 4">
+                    <h3>Project 4</h3>
+                    <p>[Description]</p>
+                </a>
+            </div>
             <!-- Add more projects as needed -->
-        </ul>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Email: [Your Email]</p>
-        <p>LinkedIn: [Your LinkedIn Profile]</p>
+        <p>Email: [bima@mail.com]</p>
+        <p>LinkedIn: <a href="[Your LinkedIn Profile]">[Your LinkedIn Profile]</a></p>
     </section>
 
     <footer>
-        <p>&copy; [Year] [Your Name]. All rights reserved.</p>
+        <p>&copy; [2024] [Sri Bima Aryo]. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
