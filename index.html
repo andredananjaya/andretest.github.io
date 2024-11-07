@@ -1,33 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Brief description about yourself.</p>
-    </header>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Short description of the project.</p>
-            <a href="link-to-project">View on GitHub</a>
-        </div>
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Short description of the project.</p>
-            <a href="link-to-project">View on GitHub</a>
-        </div>
-    </section>
 
-    <footer>
-        <p>Connect with me on <a href="https://github.com/yourusername">GitHub</a></p>
-    </footer>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <title>Beranda - Portofolio</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container text-center">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/satrio.jpeg" width="30" height="30" class="d-inline-block align-top rounded-circle" alt="logo">
+        RioJy
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="https://github.com/satriowijaya">Projek</a>
+          <a class="nav-item nav-link" href="https://www.instagram.com/storyouid/">Microblog</a>
+          <a class="nav-item nav-link" href="https://api.whatsapp.com/send?phone=6282282646939/">Kontak</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h1 class="display-4 flow-text">Hai, saya Satrio Wijaya</h1>
+          <h3><b>IT Support</h3></b>
+          <p class="lead mt-4">Saya seorang IT Support yang mampu melakukan perbaikan, instalasi, evaluasi, peningkatan,
+            dan perawatan perangkat komputer,
+            software aplikasi, dan sistem jaringan komputer. Saya sangat
+            tertarik pada semua hal yang berkaitan dengan teknologi, itu sebabnya saya memilih <a
+              href="https://www.binadarma.ac.id/"><span><u>Bina Darma</u></span></a> sebagai Universitas saya untuk
+            mengembangkan
+            pengetahuan dan bakat dibidang teknologi.</p>
+          <div class="row akun">
+            <div class="tombol">
+              <a class="btn btn-tombol btn-lg" href="mailto:satriowijaya06@gmail.com"><i
+                  class="fas fa-envelope email"></i> <b>Email</b></a>
+              <a href="https://www.instagram.com/rio.jy/"><i class="fab fa-instagram sosmed"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=6282282646939/"><i class="fab fa-whatsapp sosmed"></i></a>
+              <a href="https://web.facebook.com/satrio.wijaya.524"><i class="fab fa-facebook-f sosmed"></i></a>
+            </div>
+          </div>
+          <div>
+            <a class="cv" href="https://docs.google.com/uc?export=download&id=1uS7s9f-BFeaZmY6nb6zsovHYMJ2DVSJo"><i
+                class="fas fa-download"></i> Download
+              CV</a>
+          </div>
+        </div>
+        <div class="col-md-4 foto">
+          <img src="img/satrio2.jpeg" width="100%" alt="foto">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Pendidikan dan Organisasi -->
+  <section class="pendidikan">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 pendidikan-utama">
+          <a href="pendidikan.html">
+            <img src="img/pendidikan/cover.jpeg" width="100%" alt="">
+            <span>
+              <h1>Pendidikan</h1>
+              <p>
+                <br>Merupakan faktor penting dalam proses</br>
+                <br>mengembangkan pengetahuan dan</br>
+                <br>kemampuan seseorang.</br>
+              <h2>Lihat lebih banyak <i class="far fa-arrow-alt-circle-right"></i></h2>
+              </p>
+            </span>
+          </a>
+        </div>
+
+        <div class="col-md-6 organisasi-utama">
+          <a href="organisasi.html">
+            <img src="img/organisasi/cover.jpeg" width="100%" alt="">
+            <span>
+              <h1>Organisasi</h1>
+              <p>
+                <br>Organisasi dapat menjadi faktor yang</br>
+                <br>sangat penting dalam pengembangkan</br>
+                <br>karakter anda.</br>
+              <h2>Lihat lebih banyak <i class="far fa-arrow-alt-circle-right"></i></h2>
+              </p>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Pendidikan dan Organisasi -->
+
+
+  <!-- Sertifikat -->
+  <section class="sertifikat" id="sertifikat">
+    <div class="container">
+      <div class="row sertifikat-menu">
+        <div class="col-md-12">
+          <h1>Sertifikat</h1>
+        </div>
+      </div>
+
+      <div class="row sertifikat-item">
+        <div class="col-md-3">
+          <a href="#gambar-1">
+            <img src="img/sertifikat/1.jpg" width="100%" alt="1">
+            <span>Sertifikat Magang</span>
+          </a>
+          <div class="overlay" id="gambar-1">
+            <a href="#sertifikat" class="cloase"><i class="far fa-times-circle"></i></a>
+            <img src="img/sertifikat/1.jpg" alt="1">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="#gambar-2">
+            <img src="img/sertifikat/2.jpg" width="100%" alt="2">
+            <span>Sertifikat Uji Kompetensi</span>
+          </a>
+          <div class="overlay" id="gambar-2">
+            <a href="#sertifikat" class="cloase"><i class="far fa-times-circle"></i></a>
+            <img src="img/sertifikat/2.jpg" alt="2">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="#gambar-3">
+            <img src="img/sertifikat/3.jpeg" width="100%" alt="3">
+            <span>Sertifikat Pembangunan Karakter</span>
+          </a>
+          <div class="overlay" id="gambar-3">
+            <a href="#sertifikat" class="cloase"><i class="far fa-times-circle"></i></a>
+            <img src="img/sertifikat/3.jpeg" alt="3">
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a href="#gambar-4">
+            <img src="img/sertifikat/4.jpeg" width="100%" alt="4">
+            <span>Sertifikat Kompetensi</span>
+          </a>
+          <div class="overlay" id="gambar-4">
+            <a href="#sertifikat" class="cloase"><i class="far fa-times-circle"></i></a>
+            <img src="img/sertifikat/4.jpeg" alt="4">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Akhir Sertifikat -->
+
+  <!-- Kontak -->
+  <section class="kontak mt-5">
+    <div class="container">
+      <div class="row kontak-item">
+        <div class="col-md-10">
+          <h1><b>Berhubungan</b></h1>
+          <p>Plaju, Kota Palembang <a
+              href="https://www.google.co.id/maps/place/RioKost/@-3.0004788,104.7717351,17z/data=!3m1!4b1!4m5!3m4!1s0x2e3b9dcf9d4df7ab:0x936d645baf30e744!8m2!3d-3.0004842!4d104.7739238"><u>lihat
+                peta</u></a></p>
+          <a href="mailto:satriowijaya06@gmail.com"><i class="fas fa-envelope sosmed email"></i></a>
+          <a href="https://www.instagram.com/rio.jy/"><i class="fab fa-instagram sosmed instagram"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=6282282646939/"><i
+              class="fab fa-whatsapp sosmed whatsapp"></i></a>
+          <a href="https://web.facebook.com/satrio.wijaya.524"><i class="fab fa-facebook-f sosmed facebook"></i></a>
+        </div>
+        <div class="col-md-2 logo">
+          <img src="img/satrio3.png" class="rounded-circle" alt="logo">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Kontak -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row pt-3">
+        <div class="col-md-6 kiri">
+          <p>&copy; 2020 RioJy | Dirancang & Dikembangkan oleh Satrio Wijaya</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Akhir Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
